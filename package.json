@@ -1,0 +1,32 @@
+{
+  "name": "base64-buffer-thumbnail-no-cache",
+  "version": "1.0.0",
+  "description": "Generate an image thumbnail Using base64 and buffer only.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "keywords": [
+    "javascript",
+    "thumbnail",
+    "resize",
+    "sharp",
+    "percentage",
+    "base64",
+    "buffer"
+  ],
+  "author": "Dracks",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.2.7"
+  },
+  "dependencies": {
+    "image-size": "^1.0.1",
+    "sharp": "^0.30.3    ",
+    "validator": "^13.0.0"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node"
+  }
+}
