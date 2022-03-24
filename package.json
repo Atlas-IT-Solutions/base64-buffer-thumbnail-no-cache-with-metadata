@@ -1,6 +1,6 @@
 {
   "name": "base64-buffer-thumbnail-no-cache",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Generate an image thumbnail Using base64 and buffer only.",
   "main": "index.js",
   "scripts": {

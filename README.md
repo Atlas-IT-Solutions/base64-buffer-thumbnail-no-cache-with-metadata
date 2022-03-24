@@ -16,7 +16,7 @@ By default the thumbnail's file format will be the same than the source file. Yo
 #### Async/Await (Typescript & ES7)
 
 ```js
-const Base64BufferThumbnail = require("base64-buffer-thumbnail");
+const Base64BufferThumbnail = require("base64-buffer-thumbnail-no-cache");
 
 try {
   const thumbnail = await Base64BufferThumbnail(
@@ -31,7 +31,7 @@ try {
 #### Using promises (node 8.x)
 
 ```js
-const Base64BufferThumbnail = require('base64-buffer-thumbnail');
+const Base64BufferThumbnail = require('base64-buffer-thumbnail-no-cache');
 
 Base64BufferThumbnail(('/9j/4AAQSkZJRgABAQEBLAEsAAD/4QEERXhpZgAA==')
     .then(thumbnail => { console.log(thumbnail) })
@@ -43,7 +43,7 @@ Base64BufferThumbnail(('/9j/4AAQSkZJRgABAQEBLAEsAAD/4QEERXhpZgAA==')
 #### From Base64
 
 ```js
-const Base64BufferThumbnail = require("base64-buffer-thumbnail");
+const Base64BufferThumbnail = require("base64-buffer-thumbnail-no-cache");
 
 try {
   const thumbnail = await Base64BufferThumbnail(
@@ -58,7 +58,7 @@ try {
 #### From Buffer
 
 ```js
-const Base64BufferThumbnail = require("base64-buffer-thumbnail");
+const Base64BufferThumbnail = require("base64-buffer-thumbnail-no-cache");
 
 try {
   const imageBuffer = fs.readFileSync("resources/images/valais.jpg");
@@ -83,7 +83,7 @@ try {
 ### Examples
 
 ```js
-const Base64BufferThumbnail = require("base64-buffer-thumbnail");
+const Base64BufferThumbnail = require("base64-buffer-thumbnail-no-cache");
 
 let options = {percentage: 25, responseType: "base64"};
 
@@ -99,7 +99,7 @@ try {
 ```
 
 ```js
-const Base64BufferThumbnail = require("base64-buffer-thumbnail");
+const Base64BufferThumbnail = require("base64-buffer-thumbnail-no-cache");
 
 let options = {width: 100, height: 100, responseType: "base64"};
 
@@ -115,7 +115,7 @@ try {
 ```
 
 ```js
-const Base64BufferThumbnail = require("base64-buffer-thumbnail");
+const Base64BufferThumbnail = require("base64-buffer-thumbnail-no-cache");
 
 let options = {
   width: 100,
