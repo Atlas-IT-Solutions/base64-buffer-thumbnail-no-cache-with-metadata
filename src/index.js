@@ -94,6 +94,7 @@ const sharpResize = (imageBuffer, dimensions, jpegOptions, fit) => {
                 withoutEnlargement: true,
                 fit: fit ? fit : 'contain',
             })
+            .withMetadata()
             .jpeg(jpegOptions ? jpegOptions : {
                 force: false
             })
